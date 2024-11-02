@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>唐湲湲</title>
+    <style>
+         .yijicaidan>li{
+            list-style: none;
+            background-color: gainsboro;
+            margin: 5px 3px;
+            width: 80px;
+            height: 40px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border-radius: 8px;
+        }
+        a{
+            font-size: 20px;
+            color: black;
+            /*字体装饰*/
+            text-decoration: none;
+        }
+        .yijihezi{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-top: 50px;
+        }
+        .erjihezi{
+            position:absolute;
+            top:118px;
+            left: 900px;
+        }
+        .erjihezi{
+            background-color: gainsboro;
+            width: 200px;
+            height:35px;
+            border-radius:8px ;
+            display:none;
+        }
+        .erjicaidan>li{
+            list-style: none;
+            margin:5px 5px;
+            display:flex;  
+            justify-content:center;
+            align-items:center;
+        }
+        .erjicaidan{
+            padding: 0px;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+        .yijicaidan>li:hover>.erjihezi{
+            display: block;
+        }
+        .sanjihezi{
+            position:absolute;
+            top:163px;
+            left: 900px;
+        }
+        .sanjihezi{
+            background-color: gainsboro;
+            width: 200px;
+            height:35px;
+            border-radius:8px ;
+            display:none;
+        }
+        .sanjicaidan>li{
+            list-style: none;
+            margin:5px 5px;
+            display:flex;   
+            justify-content:center;
+            align-items:center;
+        }
+        .sanjicaidan{
+            padding: 0px;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+        .yijicaidan>li:hover>.sanjihezi{
+            display: block;
+        }
+        .sijihezi{
+            position:absolute;
+            top:73px;
+            left: 900px;
+        }
+        .sijihezi{
+            background-color: gainsboro;
+            width: 200px;
+            height:35px;
+            border-radius:8px ;
+            display:none;
+        }
+        .sijicaidan>li{
+            list-style: none;
+            margin:5px 5px;
+            display:flex;   
+            list-style: none;
+            justify-content:center;
+            align-items:center;
+        }
+        .sijicaidan{
+            padding: 0px;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+        .yijicaidan>li:hover>.sijihezi{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <a href="#">娱乐</a>
+                <div class="sijihezi" >
+                    <ul class="sijicaidan">
+                        <li><a href="">游戏</a></li>
+                        <li><a href="">棋牌</a></li>
+                        <li><a href="">音乐</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">科技</a>
+                <div class="erjihezi" >
+                    <ul class="erjicaidan">
+                        <li><a href="">数码</a></li>
+                        <li><a href="">手机</a></li>
+                        <li><a href="">电脑</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">美食</a>
+                <div class="sanjihezi" >
+                    <ul class="sanjicaidan">
+                        <li><a href="">油炸</a></li>
+                        <li><a href="">水煮</a></li>
+                        <li><a href="">煎炒</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
